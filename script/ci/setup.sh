@@ -4,7 +4,7 @@ set -e
 set -x
 
 this_path="$(dirname "$(realpath "$0")")"
-project_path="$(realpath "$this_path/../../")"
+project_path="$(realpath "$this_path/F:/C/Desktop/毕设/")"
 
 targets=${1:-all}
 setup_lipsum=${setup_lipsum:-y}
